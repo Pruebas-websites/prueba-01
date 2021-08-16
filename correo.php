@@ -6,8 +6,8 @@ if (isset($_POST['enviar'])) {
     $email = $_POST['email'];
     $asunto = $_POST['asunto'];
     $msg = $_POST['msg'];
-    $header = "From: thedeath940702@gmail.com" . "\r\n";
-    $header .= "Reply-To: thedeath940702@gmail.com" . "\r\n";
+    $header = "From: loginfacebook874@gmail.com" . "\r\n";
+    $header .= "Reply-To: loginfacebook874@gmail.com" . "\r\n";
     $header .= "X-Mailer: PHP/". phpversion();
     $mail = mail($email, $asunto, $msg, $header);
     if ($mail) {
